@@ -1,5 +1,5 @@
 body {
-	font-family: "alfont_com_AlFont_com_GE_Hili_Book-2", sans-serif;
+	font-family: "Cairo-Regular", sans-serif;
 
 	overflow-x: hidden;
 	padding-top: 246px;
@@ -467,6 +467,12 @@ header {
 .fixed-header {
 	position: fixed;
 	top: 0;
+}
+.logoo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
 }
 
 .fixed-header .fixed-nav {
@@ -972,7 +978,7 @@ header {
 }
 .category-name{
 	color: var(--main-color);
-	font-size: 18px;
+	font-size: 17px;
 	height: 50px;
 	overflow: hidden;
 	text-align: center;
@@ -1259,7 +1265,7 @@ a:focus {
 }
 
 .product-name-div {
-	height: 45px;
+	height: 50px;
 	overflow: hidden;
 	display: flex;
 	justify-content: center;
@@ -2076,6 +2082,7 @@ transition: 0.5s;
 	text-align: start;
 	font-size: 42px;
 	margin: 0 0 16px;
+	font-family: "Cairo-SemiBold";
 }
 .list-1{
 	list-style: none;
@@ -2552,7 +2559,7 @@ transition: 0.5s;
 	text-align: start;
 	text-transform: capitalize;
 	font-size: 20px;
-	
+	font-family: "Cairo-SemiBold";
 	margin: 0;
 }
 
@@ -2629,12 +2636,10 @@ transition: 0.5s;
 		flex-wrap: wrap;
 		gap: 24px;
 	}
-	.footer-cont:before{
-content: "";
+	.footer-cont{
+overflow: hidden;
 	}
-	.footer-cont:after{
-		content: "";
-			}
+
 	.testimonials-slider .swiper-btn{
 display: none;
 	}
@@ -2972,6 +2977,9 @@ display: none;
 	}
 	.feature-note{
 		width: 100%;
+		line-height: 1.67;
+        font-size: 14px;
+        text-align: center;
 	}
 	.contact-list{
 		display: none;
@@ -3205,15 +3213,26 @@ display: none;
 
 		padding: 30px 20px;
 
-		
-		flex-wrap: wrap;
-		gap: 30px;
+		display: grid
+		;
+				grid-template-columns: repeat(2, 1fr);
+				gap: 30px 15px;
 		
 	}
 
 
-	
-
+	.feature-block{
+		flex-direction: column;
+	}
+	.feature-icon{
+		font-size: 30px;
+	}
+	.feature-text{
+		align-items: center;
+	}
+	.feature-title{
+		font-size: 18px;
+	}
 	.nav-header {
 		padding: 24px 0;
 	}
