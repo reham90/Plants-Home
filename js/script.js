@@ -197,6 +197,7 @@ var specials = new Swiper(".specials-slider .swiper-container", {
     },
 });
 
+  }
 
 ///////// **small-plants-slider-section** /////////
 
@@ -230,7 +231,7 @@ var smallPlants = new Swiper(".small-plants-slider .swiper-container", {
         },
         1199: {
             slidesPerView: 4,
-            spaceBetween: 24,
+            spaceBetween: 15,
         },
     },
 });
@@ -267,7 +268,7 @@ var bigPlants = new Swiper(".big-plants-slider .swiper-container", {
         },
         1199: {
             slidesPerView: 4,
-            spaceBetween: 24,
+            spaceBetween: 15,
         },
     },
 });
@@ -305,7 +306,7 @@ var carePlants = new Swiper(".care-plants-slider .swiper-container", {
         },
         1199: {
             slidesPerView: 4,
-            spaceBetween: 24,
+            spaceBetween: 15,
         },
     },
 });
@@ -343,14 +344,14 @@ var aloveraPlants = new Swiper(".alovera-plants-slider .swiper-container", {
         },
         1199: {
             slidesPerView: 4,
-            spaceBetween: 24,
+            spaceBetween: 15,
         },
     },
 });
 
 
 
-  }
+ 
 
 
   ///////// **testimonials-slider-section** /////////

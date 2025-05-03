@@ -1007,17 +1007,225 @@ header {
 .big-plants-slider{
 	position: relative;
 }
+.big-plants-slider .swiper-pagination {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	gap: 8px;
+	justify-content: center;
+	bottom: -40px;
+	width: 100%;
+}
+
+.big-plants-slider .swiper-pagination .swiper-pagination-bullet {
+	width: 14px;
+	height: 14px;
+	border-radius: 50%;
+	background-color: transparent;
+	border: 1px solid var(--main-color);
+	opacity: 1;
+	margin: 0;
+	-webkit-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	outline: none !important;
+}
+.big-plants-slider .product-block{
+	padding: 0;
+}
+
+
+.big-plants-slider .swiper-pagination .swiper-pagination-bullet:hover {
+	
+	width: 37px;
+	height: 14px;
+	background-color: var(--main-color);
+	border: 0;
+	border-radius: 10px;
+}
+
+.big-plants-slider .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+	width: 37px;
+	height: 14px;
+	background-color: var(--main-color);
+	border: 0;
+	border-radius: 10px;
+	opacity: 1;
+}
+.small-plants-slider .swiper-pagination {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	gap: 8px;
+	justify-content: center;
+	bottom: -40px;
+	width: 100%;
+}
+
+.small-plants-slider .swiper-pagination .swiper-pagination-bullet {
+	width: 14px;
+	height: 14px;
+	border-radius: 50%;
+	background-color: transparent;
+	border: 1px solid var(--main-color);
+	opacity: 1;
+	margin: 0;
+	-webkit-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	outline: none !important;
+}
+.small-plants-slider .product-block{
+	padding: 0;
+}
+
+
+.small-plants-slider .swiper-pagination .swiper-pagination-bullet:hover {
+	
+	width: 37px;
+	height: 14px;
+	background-color: var(--main-color);
+	border: 0;
+	border-radius: 10px;
+}
+
+.small-plants-slider .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+	width: 37px;
+	height: 14px;
+	background-color: var(--main-color);
+	border: 0;
+	border-radius: 10px;
+	opacity: 1;
+}
 .care-plants-slider{
 	position: relative;
+}
+.care-plants-slider .swiper-pagination {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	gap: 8px;
+	justify-content: center;
+	bottom: -40px;
+	width: 100%;
+}
+
+.care-plants-slider .swiper-pagination .swiper-pagination-bullet {
+	width: 14px;
+	height: 14px;
+	border-radius: 50%;
+	background-color: transparent;
+	border: 1px solid var(--main-color);
+	opacity: 1;
+	margin: 0;
+	-webkit-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	outline: none !important;
+}
+.care-plants-slider .product-block{
+	padding: 0;
+}
+
+
+.care-plants-slider .swiper-pagination .swiper-pagination-bullet:hover {
+	
+	width: 37px;
+	height: 14px;
+	background-color: var(--main-color);
+	border: 0;
+	border-radius: 10px;
+}
+
+.care-plants-slider .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+	width: 37px;
+	height: 14px;
+	background-color: var(--main-color);
+	border: 0;
+	border-radius: 10px;
+	opacity: 1;
+}
+
+.care-plants-slider .swiper-wrapper{
+	display: flex;
+	gap:0;
+}
+.specials-slider .swiper-pagination .swiper-pagination-bullet {
+	width: 14px;
+	height: 14px;
+	border-radius: 50%;
+	background-color: transparent;
+	border: 1px solid rgba(248, 248, 248, 1);
+	opacity: 1;
+	margin: 0;
+	-webkit-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	outline: none !important;
+}
+
+
+.specials-slider .swiper-pagination .swiper-pagination-bullet:hover {
+	
+	width: 37px;
+	height: 14px;
+	background-color: rgba(248, 248, 248, 1);
+	border: 0;
+	border-radius: 10px;
+}
+
+.specials-slider .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+	width: 37px;
+	height: 14px;
+	background-color: rgba(248, 248, 248, 1);
+	border: 0;
+	border-radius: 10px;
+	opacity: 1;
 }
 .alovera-plants-slider{
 	position: relative;
 }
-.small-plants-slider .swiper-wrapper{
-	display: grid;
-	grid-template-columns: repeat(4,1fr);
-	gap:15px;
+.alovera-plants-slider .swiper-pagination {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	gap: 8px;
+	justify-content: center;
+	bottom: -40px;
+	width: 100%;
 }
+
+.alovera-plants-slider .swiper-pagination .swiper-pagination-bullet {
+	width: 14px;
+	height: 14px;
+	border-radius: 50%;
+	background-color: transparent;
+	border: 1px solid var(--main-color);
+	opacity: 1;
+	margin: 0;
+	-webkit-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	outline: none !important;
+}
+.alovera-plants-slider .product-block{
+	padding: 0;
+}
+
+
+.alovera-plants-slider .swiper-pagination .swiper-pagination-bullet:hover {
+	
+	width: 37px;
+	height: 14px;
+	background-color: var(--main-color);
+	border: 0;
+	border-radius: 10px;
+}
+
+.alovera-plants-slider .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+	width: 37px;
+	height: 14px;
+	background-color: var(--main-color);
+	border: 0;
+	border-radius: 10px;
+	opacity: 1;
+}
+
 .small-plants-slider .product-name{
 	color: var(--main-color);
 }
@@ -1065,11 +1273,7 @@ header {
 	text-transform: capitalize;
 }
 
-.big-plants-slider .swiper-wrapper{
-	display: grid;
-	grid-template-columns: repeat(4,1fr);
-	gap:15px;
-}
+
 .big-plants-slider .product-name{
 	color: var(--main-color);
 }
@@ -1121,11 +1325,7 @@ header {
 	justify-content: center;
 }
 
-.care-plants-slider .swiper-wrapper{
-	display: grid;
-	grid-template-columns: repeat(4,1fr);
-	gap:15px;
-}
+
 .care-plants-slider .product-name{
 	color: var(--main-color);
 }
@@ -1181,11 +1381,7 @@ header {
 }
 
 
-.alovera-plants-slider .swiper-wrapper{
-	display: grid;
-	grid-template-columns: repeat(4,1fr);
-	gap:15px;
-}
+
 .alovera-plants-slider .product-name{
 	color: var(--main-color);
 }
@@ -2650,50 +2846,12 @@ display: none;
 	.testimonials-slider .swiper-pagination {
 		display: flex;
 	}
-	.small-plants-slider .swiper-pagination {
-		display: -webkit-box;
-		display: -ms-flexbox;
-		display: flex;
-		gap: 8px;
-		justify-content: center;
-		bottom: -40px;
-		width: 100%;
-	}
-	
-	.small-plants-slider .swiper-pagination .swiper-pagination-bullet {
-		width: 14px;
-		height: 14px;
-		border-radius: 50%;
-		background-color: transparent;
-		border: 1px solid var(--main-color);
-		opacity: 1;
-		margin: 0;
-		-webkit-transition: all 0.3s ease-in-out;
-		transition: all 0.3s ease-in-out;
-		outline: none !important;
-	}
+
 	.small-plants-slider .product-block{
 		padding: 0;
 	}
 	
 	
-	.small-plants-slider .swiper-pagination .swiper-pagination-bullet:hover {
-		
-		width: 37px;
-		height: 14px;
-		background-color: var(--main-color);
-		border: 0;
-		border-radius: 10px;
-	}
-	
-	.small-plants-slider .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
-		width: 37px;
-		height: 14px;
-		background-color: var(--main-color);
-		border: 0;
-		border-radius: 10px;
-		opacity: 1;
-	}
 	.end-soon-block{
 		width: 100%;
 	}
@@ -2707,50 +2865,7 @@ display: none;
 	.end-soon-block .add-cart-btn{
 		width: 65%;
 	}
-	.big-plants-slider .swiper-pagination {
-		display: -webkit-box;
-		display: -ms-flexbox;
-		display: flex;
-		gap: 8px;
-		justify-content: center;
-		bottom: -40px;
-		width: 100%;
-	}
 	
-	.big-plants-slider .swiper-pagination .swiper-pagination-bullet {
-		width: 14px;
-		height: 14px;
-		border-radius: 50%;
-		background-color: transparent;
-		border: 1px solid var(--main-color);
-		opacity: 1;
-		margin: 0;
-		-webkit-transition: all 0.3s ease-in-out;
-		transition: all 0.3s ease-in-out;
-		outline: none !important;
-	}
-	.big-plants-slider .product-block{
-		padding: 0;
-	}
-	
-	
-	.big-plants-slider .swiper-pagination .swiper-pagination-bullet:hover {
-		
-		width: 37px;
-		height: 14px;
-		background-color: var(--main-color);
-		border: 0;
-		border-radius: 10px;
-	}
-	
-	.big-plants-slider .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
-		width: 37px;
-		height: 14px;
-		background-color: var(--main-color);
-		border: 0;
-		border-radius: 10px;
-		opacity: 1;
-	}
 
 	.big-plants-slider .swiper-wrapper{
 		display: flex;
@@ -2774,86 +2889,7 @@ display: none;
 		bottom: -40px;
 		width: 100%;
 	}
-	.care-plants-slider .swiper-pagination {
-		display: -webkit-box;
-		display: -ms-flexbox;
-		display: flex;
-		gap: 8px;
-		justify-content: center;
-		bottom: -40px;
-		width: 100%;
-	}
 	
-	.care-plants-slider .swiper-pagination .swiper-pagination-bullet {
-		width: 14px;
-		height: 14px;
-		border-radius: 50%;
-		background-color: transparent;
-		border: 1px solid var(--main-color);
-		opacity: 1;
-		margin: 0;
-		-webkit-transition: all 0.3s ease-in-out;
-		transition: all 0.3s ease-in-out;
-		outline: none !important;
-	}
-	.care-plants-slider .product-block{
-		padding: 0;
-	}
-	
-	
-	.care-plants-slider .swiper-pagination .swiper-pagination-bullet:hover {
-		
-		width: 37px;
-		height: 14px;
-		background-color: var(--main-color);
-		border: 0;
-		border-radius: 10px;
-	}
-	
-	.care-plants-slider .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
-		width: 37px;
-		height: 14px;
-		background-color: var(--main-color);
-		border: 0;
-		border-radius: 10px;
-		opacity: 1;
-	}
-
-	.care-plants-slider .swiper-wrapper{
-		display: flex;
-		gap:0;
-	}
-	.specials-slider .swiper-pagination .swiper-pagination-bullet {
-		width: 14px;
-		height: 14px;
-		border-radius: 50%;
-		background-color: transparent;
-		border: 1px solid rgba(248, 248, 248, 1);
-		opacity: 1;
-		margin: 0;
-		-webkit-transition: all 0.3s ease-in-out;
-		transition: all 0.3s ease-in-out;
-		outline: none !important;
-	}
-	
-	
-	.specials-slider .swiper-pagination .swiper-pagination-bullet:hover {
-		
-		width: 37px;
-		height: 14px;
-		background-color: rgba(248, 248, 248, 1);
-		border: 0;
-		border-radius: 10px;
-	}
-	
-	.specials-slider .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
-		width: 37px;
-		height: 14px;
-		background-color: rgba(248, 248, 248, 1);
-		border: 0;
-		border-radius: 10px;
-		opacity: 1;
-	}
 	.banner-sec:after{
 		content: "";
 	}
@@ -2890,50 +2926,7 @@ display: none;
 		bottom: -25px;
 		width: 100%;
 	}
-	.alovera-plants-slider .swiper-pagination {
-		display: -webkit-box;
-		display: -ms-flexbox;
-		display: flex;
-		gap: 8px;
-		justify-content: center;
-		bottom: -40px;
-		width: 100%;
-	}
 	
-	.alovera-plants-slider .swiper-pagination .swiper-pagination-bullet {
-		width: 14px;
-		height: 14px;
-		border-radius: 50%;
-		background-color: transparent;
-		border: 1px solid var(--main-color);
-		opacity: 1;
-		margin: 0;
-		-webkit-transition: all 0.3s ease-in-out;
-		transition: all 0.3s ease-in-out;
-		outline: none !important;
-	}
-	.alovera-plants-slider .product-block{
-		padding: 0;
-	}
-	
-	
-	.alovera-plants-slider .swiper-pagination .swiper-pagination-bullet:hover {
-		
-		width: 37px;
-		height: 14px;
-		background-color: var(--main-color);
-		border: 0;
-		border-radius: 10px;
-	}
-	
-	.alovera-plants-slider .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
-		width: 37px;
-		height: 14px;
-		background-color: var(--main-color);
-		border: 0;
-		border-radius: 10px;
-		opacity: 1;
-	}
 
 	.alovera-plants-slider .swiper-wrapper{
 		display: flex;
