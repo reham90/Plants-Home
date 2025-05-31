@@ -3172,9 +3172,25 @@ display: none;
 
 	.img-logo {
 		width: 115px;
+		
 	}
 
-
+.top-header-list li:nth-child(1){
+	    position: absolute;
+    inset-inline-start: 0;
+}
+.top-header-list li:nth-child(2){
+	    position: absolute;
+    inset-inline-start: 40px;
+}
+.top-header-list li:nth-child(3){
+	    position: absolute;
+    inset-inline-end: 40px;
+}
+.top-header-list li:nth-child(4){
+	    position: absolute;
+    inset-inline-end: 0;
+}
 	.top-header-list {
 		gap: 10px;
 	}
@@ -3329,12 +3345,14 @@ display: none;
 	.nav-foot-header-2 {
 		margin: 30px 0 15px;
 		text-align: center;
+		
 	}
 
 
 	.nav-header {
 		padding: 10px 0;
 		position: relative;
+		justify-content: center;
 	}
 
 	footer .img-logo {
