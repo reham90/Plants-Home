@@ -236,6 +236,42 @@ var smallPlants = new Swiper(".small-plants-slider .swiper-container", {
     },
 });
 
+///////// **pro-extra-slider-section** /////////
+
+var smallPlants = new Swiper(".pro-extra-slider .swiper-container", {
+    loop: true,
+    autoplay: true,
+    pagination: {
+        el: ".pro-extra-slider .swiper-pagination",
+        clickable: true,
+    },
+    navigation: {
+        nextEl: ".pro-extra-slider .swiper-btn-next",
+        prevEl: ".pro-extra-slider .swiper-btn-prev",
+    },
+    breakpoints: {
+        0: {
+            slidesPerView: 2,
+            spaceBetween: 10,
+        },
+        720: {
+            slidesPerView: 2,
+            spaceBetween: 15,
+        },
+        767: {
+            slidesPerView: 2,
+            spaceBetween: 15,
+        },
+        992: {
+            slidesPerView: 2,
+            spaceBetween: 15,
+        },
+        1199: {
+            slidesPerView: 2,
+            spaceBetween: 15,
+        },
+    },
+});
 ///////// **big-plants-slider-section** /////////
 
 var bigPlants = new Swiper(".big-plants-slider .swiper-container", {
