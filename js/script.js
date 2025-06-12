@@ -160,42 +160,6 @@ var category = new Swiper(".category-slider .swiper-container", {
     },
 });
 
-///////// **specials-section** /////////
-
-var specials = new Swiper(".specials-slider .swiper-container", {
-    loop: true,
-    autoplay: true,
-    pagination: {
-        el: ".specials-slider .swiper-pagination",
-        clickable: true,
-    },
-    navigation: {
-        nextEl: ".specials-slider .swiper-btn-next",
-        prevEl: ".specials-slider .swiper-btn-prev",
-    },
-    breakpoints: {
-        0: {
-            slidesPerView: 2,
-            spaceBetween: 10,
-        },
-        720: {
-            slidesPerView: 3,
-            spaceBetween: 15,
-        },
-        767: {
-            slidesPerView: 3,
-            spaceBetween: 15,
-        },
-        992: {
-            slidesPerView: 4,
-            spaceBetween: 15,
-        },
-        1199: {
-            slidesPerView: 4,
-            spaceBetween: 24,
-        },
-    },
-});
 
   }
 
@@ -236,18 +200,18 @@ var smallPlants = new Swiper(".small-plants-slider .swiper-container", {
     },
 });
 
-///////// **pro-extra-slider-section** /////////
+///////// **specials-section** /////////
 
-var smallPlants = new Swiper(".pro-extra-slider .swiper-container", {
+var specials = new Swiper(".specials-slider .swiper-container", {
     loop: true,
     autoplay: true,
     pagination: {
-        el: ".pro-extra-slider .swiper-pagination",
+        el: ".specials-slider .swiper-pagination",
         clickable: true,
     },
     navigation: {
-        nextEl: ".pro-extra-slider .swiper-btn-next",
-        prevEl: ".pro-extra-slider .swiper-btn-prev",
+        nextEl: ".specials-slider .swiper-btn-next",
+        prevEl: ".specials-slider .swiper-btn-prev",
     },
     breakpoints: {
         0: {
@@ -268,10 +232,11 @@ var smallPlants = new Swiper(".pro-extra-slider .swiper-container", {
         },
         1199: {
             slidesPerView: 2,
-            spaceBetween: 15,
+            spaceBetween: 24,
         },
     },
 });
+
 ///////// **big-plants-slider-section** /////////
 
 var bigPlants = new Swiper(".big-plants-slider .swiper-container", {
