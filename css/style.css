@@ -829,9 +829,7 @@ header {
 	grid-template-columns: repeat(7,1fr);
 	gap:24px;
 }
-.specials-div{
-	width: 50%;
-}
+
 .specials-slider{
 	position: relative;
 }
@@ -1190,6 +1188,10 @@ header {
 	display: flex;
 	gap:0;
 }
+.specials-slider .swiper-pagination {
+	left: 50%;
+	transform: translateX(-50%);
+}
 .specials-slider .swiper-pagination .swiper-pagination-bullet {
 	width: 14px;
 	height: 14px;
@@ -1204,6 +1206,8 @@ header {
 	margin-top: 30px;
 	margin-bottom: 30px;
 	position: relative;
+	
+
 }
 
 
@@ -1815,10 +1819,7 @@ inset-inline-end: 70px;
 	background-color: var(--main-color);
 	padding: 56px 0 ;
 }
-.specials-content{
-	display: flex;
-	gap:24px;
-}
+
 /***** specials section  ***/
 
 

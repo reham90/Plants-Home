@@ -223,15 +223,15 @@ var specials = new Swiper(".specials-slider .swiper-container", {
             spaceBetween: 15,
         },
         767: {
-            slidesPerView: 2,
+            slidesPerView: 3,
             spaceBetween: 15,
         },
         992: {
-            slidesPerView: 2,
+            slidesPerView: 4,
             spaceBetween: 15,
         },
         1199: {
-            slidesPerView: 2,
+            slidesPerView: 4,
             spaceBetween: 24,
         },
     },
